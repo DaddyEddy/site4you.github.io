@@ -1,0 +1,487 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	width: 1680px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header {
+	background-image: url(../img/top_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+	position: relative;
+	font-family: "BebasBold";
+	min-height: 644px;
+	width: 1680px;
+}
+header a {
+	color: #fff;
+}
+.top-line {
+	min-height: 97px;
+	-webkit-box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.3) 0 0 0 1px;
+	width: 100%;
+	background-color: rgba(0,0,0,.6);
+	padding: 20px 0;
+}
+.top-line a{
+font-size: 21px;
+border-bottom: #fff dashed 1px;
+-webkit-transform: all .25s;
+	-o-transform: all .25s;
+	transform: all .25s;
+}
+.top-line a:hover{
+	border-bottom: transparent dashed 1px;
+}
+.top-addr {
+	background-image: url(../img/top_map.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	line-height: 26px;
+	padding-left: 50px;
+}
+.top-addr strong {
+	display: block;
+	color: #d12f22;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 32px;
+}
+.top-line .logo {
+border-bottom: none;
+position: absolute;
+margin-top: -18px
+}
+.logo_wrap{
+	position: relative;
+	width: 200px;
+	margin: auto;
+}
+.ta_right{
+	background-image: none;
+	padding-left: 0; 
+	text-align: right;
+}
+
+
+header H1 {
+	text-align: center;
+	color: #fff;
+	margin-top: 65px;
+	font-size: 40px;
+	text-shadow: 0 3px rgba(0,0,0,.55);
+	font-family: "BebasRegular";
+	
+}
+.button{
+	background-color: #d12f22;
+	display: inline-block;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+	padding: 0 25px;
+	border-bottom: #ac160a 4px solid;
+	color: #fff;
+	font-family: "BebasBold";
+}
+.button:hover{
+	background-color: #e64437;
+}
+.button:active{
+	background-color: #b81609;
+}
+header .button{
+	margin-right: 20px;
+}
+.st_button{
+	line-height: 20px;
+	padding-top: 7px;
+	text-align: left;
+	padding-left: 63px;
+	background-image: url(../img/camera-icon.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+.buttons_top{
+	position: absolute;
+	width: 100%;
+	bottom: 32px;
+}
+/*Главное меню*/
+.top_menu{
+	margin-left: -150px;
+	background-color: #242424;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+    font-family: "BebasRegular";
+    height: 56px;
+    overflow: hidden;
+    padding: 0 0;
+    position: relative;
+    text-transform: uppercase;
+	
+}
+.top_menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+    left: 50%;
+    position: relative;
+	}
+.top_menu ul li{
+	float: left;
+    left: -50%;
+    position: relative;
+}
+.top_menu a{
+	color: #fff;
+	font-size: 20px;
+	padding: 0 20px 0 40px;
+	display: block;
+	line-height: 55px;
+	border-left: #3b3b3b solid 1px;
+	background-image: url(../img/top_menu_iconset.png);
+	background-repeat: no-repeat;
+	background-position: 5px 15px;
+	
+}
+
+.top_menu li.active,
+.top_menu li:hover{
+	background-color: #050505;
+}
+.top_menu li:nth-child(2) a {
+background-position: 5px -72px;	
+}
+.top_menu li:nth-child(3) a {
+background-position: 5px -152px;	
+}
+.top_menu li:nth-child(4) a {
+background-position: 5px -242px;	
+}
+.top_menu li:nth-child(5) a {
+background-position: 5px -328px;	
+}
+.top_menu li:nth-child(6) a {
+background-position: 5px -417px;	
+}
+/*Блок ГАРАНТИЯ в Главном меню*/
+.warranty {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    color: #fff;
+    cursor: default;
+    margin-left: 1400px;
+	margin-top: 3px;
+    height: 50px;
+	width: 190px;
+	line-height: 16px;
+	
+}
+.left_warranty{
+	float: left;
+	font-family: "BebasRegular";
+	padding: 13px 0 0 5px;
+}
+.right_warranty{
+	float: right;
+	font-family: "RobotoCondensedRegular";
+	padding: 8px 5px 0 3px;
+}
+/*Конец Гланого меню*/
+
+/*Услуги мастерской*/
+.main_cats{
+	background-color: #191919;
+	padding: 20px 0 40px;
+}
+.main_cats h2,
+.art_header{
+	text-transform: uppercase;
+	color: #c9c9c9;
+	font-family: "BebasRegular";
+	font-size: 40px;
+	text-align: center
+}
+.main_cats h2 strong{
+	color: #fff;
+}
+.main_cats h2 span{
+	color: #D12F22;
+}
+
+.s_black h2::before{
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	background-image: url(../img/header_img_fly.png);
+	margin-left: -70px;
+	top: 52px;
+}
+.s_black h2::after{
+	content: "";
+	position: absolute;
+	background-position: -50px 0;
+	width: 50px;
+	height: 20px;
+	background-image:url(../img/header_img_fly.png);
+	margin-left: 20px;
+	top: 52px;
+}
+/*6 наименований услуг*/
+.main_cats_item_wrapp{
+	margin-left: 30px;
+	width: 160px;
+	display: inline-block;
+	}
+.main_cats_wrapp{
+	text-align: center;
+	padding: 0;
+	position: relative;
+	
+}
+.main_cats_item_wrapp a{
+	color: #fff;
+}
+.mc_item{
+	border: #353535 solid 1px;
+	border-radius: 2px;
+	
+}
+.main_cats_item_wrapp:nth-child(1){
+	margin-left: 0;
+}
+.mc_item span{
+	display: block;
+	height: 85px;
+	width: 130px;
+	background-image: url(../img/cats_iconset.png);
+	margin: 15px auto 0 ;
+}
+.mc_item h4{
+	text-transform: uppercase;
+	font-family: "BebasBold";
+	font-weight: normal;
+	font-size: 20px;
+	margin: 7px 0px;
+}
+.mc_item a:hover h4, .main_cats_item_wrapp li:active{
+	text-decoration: underline;
+	}
+.main_cats_item_wrapp.active,.main_cats_item_wrapp:hover{
+	background-color: #2a2a2a;
+}
+.main_cats_item_wrapp:nth-child(1) span{
+	background-position: 9px 0;
+}
+.main_cats_item_wrapp:nth-child(2) span{
+	background-position: -125px 0;
+}
+.main_cats_item_wrapp:nth-child(3) span{
+	background-position: -260px 0;
+}
+.main_cats_item_wrapp:nth-child(4) span{
+	background-position: -393px 0;
+}
+.main_cats_item_wrapp:nth-child(5) span{
+	background-position: -526px 0;
+}
+.main_cats_item_wrapp:nth-child(6) span{
+	background-position: -660px 0;
+}
+/*Стрелки*/
+.mc_toggle {
+    background-color: #212121;
+    height: 25px;
+    position: relative;
+	cursor: pointer;
+	background-image: url(../img/mc_arrows.png);
+	background-repeat: no-repeat;
+	background-position: 70px 10px;
+}
+.main_cats_item_wrapp.active .mc_toggle,
+.main_cats_item_wrapp:hover .mc_toggle{
+	background-color: #353535;
+	background-position: -33px 10px;
+}
+/*Выпадающий список при нажатии на стрелку*/
+.main_cats_item_wrapp.active > ul li {
+    font-family: "BebasRegular";
+	display: inline-block;
+}
+body .main_cats_wrapp .main_cats_item_wrapp > ul{
+	background-color: #353535;
+	font-size: 20px;
+	margin-top: 20px;
+	position: absolute;
+	width: 100%;
+	padding: 15px 0;
+	list-style-type: none;
+	z-index: 10;
+	display: none;
+	left: 0;	
+}
+
+.main_cats_item_wrapp.active > ul li a{
+	padding: 0 10px ;	
+	text-decoration: underline;
+	  
+}
+.main_cats_item_wrapp.active > ul li a:hover{
+	text-decoration: none;
+}
+.main_cats_item_wrapp_af {
+    background-image: url(../img/mc_child_arrows.png);
+    content: "";
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    margin: 10px 65px;
+	display: none;
+}
+.mc_button_w{
+	text-align: center;
+	margin-top: 30px;
+}
+/*Контент*/
+article.content{
+	background-color: #e9e9e9;
+}
+article h2.art_header::before{
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	background-image: url(../img/art_header_img_fly.png);
+	margin-left: -70px;
+	top: 52px;
+}
+article h2.art_header::after{
+	content: "";
+	position: absolute;
+	background-position: -50px 0;
+	width: 50px;
+	height: 20px;
+	background-image:url(../img/art_header_img_fly.png);
+	margin-left: 20px;
+	top: 52px;
+}
+.art_header{
+	color: #050505;
+	margin-bottom: 10px;
+}
+p.h_descr{
+	max-width: 790px;
+	text-align: center;
+	margin: 0 auto auto;
+	color: #050505;
+}
+/*Блок с картинками*/
+.home_items{
+	background-color: #D6D6D6;
+	padding: 40px 0;
+	margin-top: 40px;
+}
+.hi_item img{
+	max-width: 100%;
+	border-top: #C90F03 8px solid;
+	
+}
+.hi_item{
+	color: #050505;
+	text-align: center;
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+/*Нижний контент*/
+.s_bottom img{
+	position: absolute;
+	width: 90%;
+	height: 100%;
+	
+}
+.s_bottom{
+	padding-top: 32px;
+}
+
+.sb_header h2{
+	font-size: 36px;
+	text-transform: uppercase;
+	font-family: "BebasRegular";
+	margin: 0;
+}
+.sb_content{
+	margin-top: 30px;
+}
+.sb_content p{
+	margin-bottom: -10;
+}
+.sb_header.button_cont{
+	text-align: right;
+}
+
+/*Footer*/
+footer{
+	background-color: #2a2a2a;
+	color: #fff;
+	padding: 28px 0 35px;
+	font-family: "BebasBold";
+	font-size: 20px;
+}
+footer a{
+	color: #fff;
+	padding: 0 10px;
+	text-decoration: underline;
+}
+footer a:hover{
+	text-decoration: none;
+}
+footer ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+footer li{
+	float: left;
+}
